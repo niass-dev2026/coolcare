@@ -1,0 +1,32 @@
+.jumbo{
+    background-image: url("../images/jumbo-bg.png"); /* si l'image est dans un dossier qui existe déja sur visual on let ../ etc */
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background: url(../images/jumbo-bg.png) no-repeat center;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.jumbo-liens {
+    display: flex;  /*aligner les éléments*/
+    padding-left: none;
+    gap: 36px;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.jumbo-lien li a {
+    text-decoration: none;
+}
+
+.jumbo-lien li:first-child a {
+    display: inline-block;
+    padding: 24px 36px;
+    background: #094998;
+    color: white;
+    border-radius: 8px;
+}
+
+

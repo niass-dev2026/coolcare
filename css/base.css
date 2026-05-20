@@ -1,0 +1,31 @@
+:root {
+    --principal: #094998;
+    --secondaire: #31B7BD;
+    --green: green;
+    
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* border: 1px solid red; */
+    /* max-width: 1024px; */
+    width: 80%;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-weight: 800px;
+    font-size: 56px;
+    line-height: 80px;
+}
+

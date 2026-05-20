@@ -1,0 +1,29 @@
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+    object-fit: contain;
+}
+
+ul.menu-principal {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    list-style: none;
+}
+
+ul.menu-principal  a  {
+    color: blue;
+    text-decoration: none;
+}
+
+ul.menu-principal  li:nth-child(5)  a {
+    background: linear-gradient(180deg, #31B7BD 0%, #197A7D 100%);
+    display: inline-block;
+    color: blanchedalmond;
+    padding: 16px 24px;
+}

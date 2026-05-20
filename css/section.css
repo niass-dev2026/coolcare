@@ -1,0 +1,14 @@
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.nos-services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.section1 {
+    text-align: center;
+}
